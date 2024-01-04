@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 align="center">Account Opening Form</h1>
+    <h2 style="background-color: aqua;">Personal Details</h2>
+    <form>
+        <p>
+        Name*
+        <input type="text" name="Name">
+        </p>
+        
+        <p>
+        Name of<br /> <em>(Father/Guardian)</em>
+        <input type="text" name="Name">
+        </p>
+        
+        <p>
+        Date of Birth * <em>(dd-mm-yy)</em>
+        <input type="text" name="Date of Birth">
+        </p>
+        
+        <p>
+        Gender*
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female" Checked="checked" />Female
+        </p>
+        
+        <p>
+        Nationality
+        <input type="text" name="Nationality">
+        </p>
+        
+        <p>
+        Account Type*
+        <input type="radio" name="Account type" value="Savings" Checked="checked">Saving
+        <input type="radio" name="Account type" value="fixed">Fixed
+        </p>
+        
+        <p>
+        Preferences
+        <input type="checkbox" name="prefrences" value="Internet Banking" />Internet Banking
+        
+        <input type="checkbox" name="prefrences" value="Mobile Banking" />Mobile Banking
+        
+        <input type="checkbox" name="prefrences" value="SMS alert" />SMS alert
+        </p>
+        
+        <p>
+        Address 
+        <textarea name="address" cols="40" rows="5">Enter your Address </textarea>
+        </p>
+        
+        <p>
+        Country*
+        <select name="country">
+        <option value="Pakistan">Pakistan</option>
+        <option value="UAE">UAE</option>
+        <option value="Saudia Arabia">Saudia Arabia</option>
+        <option value="England">England</option>
+
+        </select>
+        </p>
+        
+        <p>
+            Zip Code*
+            <input type="number" name="Code">
+        </p>
+
+        <p>
+            Phone*
+            <input type="number" name="number">
+        </p>
+
+        <p>
+            E-mail*
+            <input type="email" name="email">
+        </p>
+
+        <p>
+            Password (6-8 characters)*
+            <input type="password" name="password">
+        </p>
+
+        <p>
+            Verify Password*
+            <input type="password" name="password">
+        </p>
+
+        <input type="submit" name="submit" value="Send">
+        <input type="reset" name="reset" value="Clear">
+   </form>
+    
+</body>
+</html>
